@@ -24,15 +24,14 @@
     <provides type="class" name="XML_RDDL" extends="XML_Parser" />
     <provides type="function" name="XML_RDDL::apiVersion" />
     <provides type="function" name="XML_RDDL::parseRDDL" />
-    <provides type="function" name="XML_RDDL::startHandler" />
     <provides type="function" name="XML_RDDL::getAllResources" />
     <provides type="function" name="XML_RDDL::getResourceById" />
     <provides type="function" name="XML_RDDL::getResourcesByNature" />
     <provides type="function" name="XML_RDDL::getResourcesByPurpose" />
     <provides type="function" name="XML_RDDL::getResourcesByLanguage" />
     <filelist>
-      <file role="doc" baseinstalldir="XML" md5sum="4b9ea3972b10c00396afdb35a5a2e79c" name="examples/example.php"/>
-      <file role="php" baseinstalldir="XML" md5sum="41c95f91eab93d4216b915930cc277f7" name="RDDL.php"/>
+      <file role="doc" baseinstalldir="XML" md5sum="49e8a77d0050c472acae9a870e7c9f2b" name="examples/example.php"/>
+      <file role="php" baseinstalldir="XML" md5sum="305c0a7dc614a8f37021f57722e06c00" name="RDDL.php"/>
     </filelist>
   </release>
   <changelog>
