@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE package SYSTEM "http://pear.php.net/dtd/package-1.0">
+<package version="1.0">
+  <name>XML_RDDL</name>
+  <summary>Class to read RDDL (Resource Directory Description Language) documents.</summary>
+  <description>XML_RDDL provides an easy-to-use interface to extract RDDL resources from XML documents. More on RDDL can be found at http://www.rddl.org/</description>
+  <maintainers>
+    <maintainer>
+      <user>schst</user>
+      <name>Stephan Schmidt</name>
+      <email>schst@php.net</email>
+      <role>lead</role>
+    </maintainer>
+  </maintainers>
+  <release>
+    <version>0.9</version>
+    <date>2003-09-06</date>
+    <license>PHP License</license>
+    <state>beta</state>
+    <notes>initial release</notes>
+    <deps>
+      <dep type="pkg" rel="has">XML_Parser</dep>
+    </deps>
+    <provides type="class" name="XML_RDDL" extends="XML_Parser" />
+    <provides type="function" name="XML_RDDL::apiVersion" />
+    <provides type="function" name="XML_RDDL::parseRDDL" />
+    <provides type="function" name="XML_RDDL::startHandler" />
+    <provides type="function" name="XML_RDDL::getAllResources" />
+    <provides type="function" name="XML_RDDL::getResourceById" />
+    <provides type="function" name="XML_RDDL::getResourcesByNature" />
+    <provides type="function" name="XML_RDDL::getResourcesByPurpose" />
+    <provides type="function" name="XML_RDDL::getResourcesByLanguage" />
+    <filelist>
+      <file role="doc" baseinstalldir="XML" md5sum="4b9ea3972b10c00396afdb35a5a2e79c" name="examples/example.php"/>
+      <file role="php" baseinstalldir="XML" md5sum="41c95f91eab93d4216b915930cc277f7" name="RDDL.php"/>
+    </filelist>
+  </release>
+  <changelog>
+    <release>
+      <version>0.9</version>
+      <date>2003-09-06</date>
+      <license>PHP License</license>
+      <state>beta</state>
+      <notes>initial release</notes>
+    </release>
+  </changelog>
+</package>
